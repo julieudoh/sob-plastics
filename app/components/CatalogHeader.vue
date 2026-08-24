@@ -1,0 +1,26 @@
+<template>
+    <!-- Top NavBar -->
+     <header class="bg-surface border-b border-border-gray fixed w-full top-0 z-50">
+        <div class="flex justify-between items-center px-margin-desktop py-4 max-w-max-width mx-auto">
+            <NuxtLink
+                class="text-headline-sm font-display font-bold text-primary dark:text-primary-fixed"
+                to="/"
+            >
+                SOB Plastics
+            </NuxtLink>
+            <nav class="hidden md:flex gap-8 items-center">
+                <a class="text-secondary border-b-2 border-secondary pb-1 font-label-lg text-label-lg hover:text-secondary transition-colors cursor-pointer" href="# ">Inventory</a>
+                <a class="text-on-surface-variant font-label-lg text-label-lg hover:text-secondary transition-colors cursor-pointer cursor-pointer" href="#">Pricing</a>
+                <a class="text-on-surface-variant font-label-lg text-label-lg hover:text-secondary transition-colors cursor-pointer" href="#">Logistics</a>
+                <a class="text-on-surface-variant font-label-lg text-label-lg hover:text-secondary transition-colors cursor-pointer" href="#">About Us</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <button class="text-primary font-label-lg text-label-lg hover:underline decoration-2 underline-offset-4 cursor-pointer">Login</button>
+                <button class="bg-[#1565C0] text-white px-6 py-2 rounded-[6px] font-label-lg text-label-lg hover:bg-primary-container transition-colors flex items-center gap-2 cursor-pointer">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <span class="hidden md:inline font-display">Open Trade Account</span>
+                </button>
+            </div>
+        </div>
+    </header>
+</template>
