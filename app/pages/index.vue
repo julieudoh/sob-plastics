@@ -226,7 +226,7 @@
                         Bestselling distribution solutions for immediate dispatch across Nigeria.
                     </p>
                 </div>
-                <NuxtLink class="text-secondary font-label-lg border-b border-secondary pb-1 hidden md:block" to="/view-products">
+                <NuxtLink class="text-secondary font-label-lg border-b border-secondary pb-1 hidden md:block" to="/view-all-products">
                     View All Trade Products
                 </NuxtLink>
             </div>

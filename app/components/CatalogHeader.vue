@@ -1,6 +1,6 @@
 <template>
     <!-- Top NavBar -->
-     <header class="bg-surface border-b border-border-gray fixed w-full top-0 z-50">
+     <header class="bg-surface border-b border-border-gray fixed w-full top-0 z-50 bg-surface-container-lowest dark:bg-surface-container-lowest border-b border-border-gray dark:border-outline-variant sticky top-0 z-50">
         <div class="flex justify-between items-center px-margin-desktop py-4 max-w-max-width mx-auto">
             <NuxtLink
                 class="text-headline-sm font-display font-bold text-primary dark:text-primary-fixed"
