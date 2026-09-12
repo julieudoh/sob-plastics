@@ -1,6 +1,6 @@
 <template>
-  <nav class="bg-surface-container-lowest dark:bg-surface-container-lowest border-b border-border-gray dark:border-outline-variant sticky top-0 z-50">
-    <div class="flex justify-between items-center w-full px-margin-desktop py-3 max-w-max-width mx-auto">
+  <header class="bg-surface-container-lowest dark:bg-surface-container-lowest border-b border-border-gray dark:border-outline-variant sticky top-0 z-50">
+    <nav class="flex justify-between items-center w-full px-margin-desktop py-3 max-w-max-width mx-auto">
       <div class="flex items-center gap-8">
         <NuxtLink
           class="text-headline-sm font-display font-bold text-primary dark:text-primary-fixed"
@@ -9,28 +9,27 @@
           SOB Plastics
         </NuxtLink>
         <div class="hidden lg:flex items-center gap-6">
-          <a
+          <NuxtLink
+            to="/products"
             class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-display"
-            href="#"
           >
           <!-- class="text-secondary dark:text-secondary-fixed border-b-2 border-secondary dark:border-secondary-fixed pb-1 font-bold text-label-md font-display" -->
-          Plastics</a>
-          <a
+          Plastics</NuxtLink>
+          <NuxtLink
+            to="/products"
             class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-display"
             href="#"
-          >Catering</a>
-          <a
+          >Catering</NuxtLink>
+          <NuxtLink
+            to="/bulk-supplies"
             class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-display"
             href="#"
-          >Bulk Supplies</a>
-          <a
+          >Bulk Supplies</NuxtLink>
+          <NuxtLink
+            to="/about-us"
             class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-display"
             href="#"
-          >Compliance</a>
-          <a
-            class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-md font-display"
-            href="#"
-          >About Us</a>
+          >About Us</NuxtLink>
         </div>
       </div>
       <div class="flex items-center gap-6">
@@ -48,13 +47,11 @@
             <span class="hidden md:inline font-display">Account</span>
           </button>
         </NuxtLink>
-        <NuxtLink to="/checkout">
-        <button class="flex items-center gap-2 bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors cursor-pointer active:opacity-80">
+        <NuxtLink to="/cart" class="flex items-center gap-2 bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors cursor-pointer active:opacity-80">
           <span class="material-symbols-outlined">shopping_basket</span>
           <span class="hidden md:inline font-display">Basket</span>
-        </button>
         </NuxtLink>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 </template>

@@ -15,11 +15,14 @@
                 <a class="text-on-surface-variant font-label-lg text-label-lg hover:text-secondary transition-colors cursor-pointer" href="#">About Us</a>
             </nav>
             <div class="flex items-center gap-4">
-                <button class="text-primary font-label-lg text-label-lg hover:underline decoration-2 underline-offset-4 cursor-pointer">Login</button>
-                <button class="bg-[#1565C0] text-white px-6 py-2 rounded-[6px] font-label-lg text-label-lg hover:bg-primary-container transition-colors flex items-center gap-2 cursor-pointer">
+                <NuxtLink to="/login" class="bg-[#1565C0] text-white px-6 py-2 rounded-[6px] font-label-lg text-label-lg hover:bg-primary-container transition-colors flex items-center gap-2 cursor-pointer">
                     <span class="material-symbols-outlined">account_circle</span>
-                    <span class="hidden md:inline font-display">Open Trade Account</span>
-                </button>
+                    <span class="hidden md:inline font-display">Account</span>
+                </NuxtLink>
+                <NuxtLink to="/cart" class="flex items-center gap-2 bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors cursor-pointer active:opacity-80">
+                    <span class="material-symbols-outlined">shopping_basket</span>
+                    <span class="hidden md:inline font-display">Basket</span>
+                </NuxtLink>
             </div>
         </div>
     </header>

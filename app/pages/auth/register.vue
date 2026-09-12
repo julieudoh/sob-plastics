@@ -106,6 +106,9 @@
                             <button class="w-full bg-secondary text-white py-4 rounded-lg text-label-lg font-label-lg hover:bg-on-secondary-fixed-variant transition-all transform active:scale-[0.98] flex items-center justify-center gap-2" type="submit">Create Account 
                                 <span class="material-symbols-outlined">person_add</span>
                             </button>
+
+                            <div class="mt-4"> <span class="text-primary text-body-sm font-body-sm">Already have an account? <NuxtLink to="/auth/login" class="text-secondary">Login</NuxtLink></span></div>
+
                             <p class="text-center mt-4 text-body-sm font-body-sm text-on-surface-variant">
                                 By submitting, you agree to our <a class="text-secondary underline" href="#">Trade Terms &amp; Conditions</a>.
                             </p>

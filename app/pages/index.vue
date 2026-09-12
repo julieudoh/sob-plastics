@@ -13,14 +13,6 @@
                 class="text-on-primary-container font-body-lg text-body-lg mb-8">
                     Authoritative distribution solutions for procurement professionals. Technical specs, bulk tiered pricing, and certified logistics for nationwide supply chains.</p>
             <div class="flex flex-wrap gap-4">
-                <NuxtLink to="/wholesale-catalog/inventory">
-                    <button class="bg-secondary text-on-secondary px-8 py-4 rounded-lg font-label-lg hover:bg-secondary/90 transition-all flex items-center gap-2 cursor-pointer">
-                            View Wholesale Catalog
-                        <span class="material-symbols-outlined">
-                            arrow_forward
-                        </span>
-                    </button>
-                </NuxtLink>
                 <NuxtLink to="/auth/register">
                     <button class="border-2 border-on-primary text-on-primary px-8 py-4 rounded-lg font-label-lg hover:bg-on-primary hover:text-primary-container transition-all cursor-pointer">
                             Register for Wholesale Account
@@ -98,15 +90,15 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-headline-sm font-headline-sm mb-2">Polythene Films</h3>
-                        <p class="text-body-sm text-on-surface-variant mb-4">
+                        <p class="text-body-sm text-on-surface-variant">
                             Trade supply shrink wrap and LDPE technical films for packaging.
                         </p>
-                        <NuxtLink 
+                        <!-- <NuxtLink 
                             class="text-secondary font-label-lg flex items-center gap-2 group-hover:gap-3 transition-all" 
                             to="/wholesale-catalog/categories/polythene-film">
                                 Explore Range 
                             <span class="material-symbols-outlined text-sm">arrow_forward</span>
-                        </NuxtLink>
+                        </NuxtLink> -->
                     </div>
                 </div>
             <!-- Tile 2 -->
@@ -116,14 +108,9 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-headline-sm font-headline-sm mb-2">Heavy-Duty Bags</h3>
-                        <p class="text-body-sm text-on-surface-variant mb-4">
+                        <p class="text-body-sm text-on-surface-variant">
                             Rubbish sacks, aggregate bags, and puncture-resistant liners for distribution.
                         </p>
-                        <a class="text-secondary font-label-lg flex items-center gap-2 group-hover:gap-3 transition-all" href="#">
-                            Explore Range 
-                            <span class="material-symbols-outlined text-sm">arrow_forward
-                            </span>
-                        </a>
                     </div>
                 </div>
                 <!-- Tile 3 -->
@@ -133,14 +120,9 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-headline-sm font-headline-sm mb-2">Pallet Wrap</h3>
-                        <p class="text-body-sm text-on-surface-variant mb-4">
+                        <p class="text-body-sm text-on-surface-variant">
                         Hand and machine stretch wrap with high-yield performance for logistics hubs.
                         </p>
-                        <a class="text-secondary font-label-lg flex items-center gap-2 group-hover:gap-3 transition-all" href="#">Explore Range 
-                            <span class="material-symbols-outlined text-sm">
-                            arrow_forward
-                            </span>
-                        </a>
                     </div>
                 </div>
 
@@ -151,9 +133,7 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-headline-sm font-headline-sm mb-2">Food Containers</h3>
-                        <p class="text-body-sm text-on-surface-variant mb-4">Bulk supply microwave and freezer-safe storage for hospitality trade.</p>
-                        <a class="text-secondary font-label-lg flex items-center gap-2 group-hover:gap-3 transition-all" href="#">Explore Range 
-                            <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                        <p class="text-body-sm text-on-surface-variant">Bulk supply microwave and freezer-safe storage for hospitality trade.</p>
                     </div>
                 </div>
                 <!-- Tile 5 -->
@@ -163,12 +143,7 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-headline-sm font-headline-sm mb-2">Catering Disposables</h3>
-                        <p class="text-body-sm text-on-surface-variant mb-4">Biodegradable and recyclable service items for large-scale industrial events.</p>
-                        <a class="text-secondary font-label-lg flex items-center gap-2 group-hover:gap-3 transition-all" href="#">Explore Range 
-                            <span class="material-symbols-outlined text-sm">
-                            arrow_forward
-                            </span>
-                        </a>
+                        <p class="text-body-sm text-on-surface-variant">Biodegradable and recyclable service items for large-scale industrial events.</p>
                     </div>
                 </div>
                 <!-- Tile 6 -->
@@ -178,10 +153,7 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-headline-sm font-headline-sm mb-2">Catering Distribution</h3>
-                        <p class="text-body-sm text-on-surface-variant mb-4">Large scale appliances and stainless steel preparation stations for wholesale buyers.</p>
-                        <a class="text-secondary font-label-lg flex items-center gap-2 group-hover:gap-3 transition-all" href="#">Explore Range 
-                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
-                        </a>
+                        <p class="text-body-sm text-on-surface-variant">Large scale appliances and stainless steel preparation stations for wholesale buyers.</p>
                     </div>
                 </div>
             </div>
@@ -226,7 +198,7 @@
                         Bestselling distribution solutions for immediate dispatch across Nigeria.
                     </p>
                 </div>
-                <NuxtLink class="text-secondary font-label-lg border-b border-secondary pb-1 hidden md:block" to="/view-all-products">
+                <NuxtLink class="text-secondary font-label-lg border-b border-secondary pb-1 hidden md:block" to="/products">
                     View All Trade Products
                 </NuxtLink>
             </div>
@@ -244,9 +216,9 @@
                             <span class="text-body-sm text-on-surface-variant">From</span>
                             <span class="text-headline-sm text-primary block">₦24,500</span>
                         </div>
-                        <button class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors">
+                        <NuxtLink to="/cart" class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer">
                             <span class="material-symbols-outlined">add</span>
-                        </button>
+                        </NuxtLink>
                     </div>
                 </div>
                 <!-- Product 2 -->
@@ -263,9 +235,9 @@
                             <span class="text-body-sm text-on-surface-variant">From</span>
                             <span class="text-headline-sm text-primary block">₦18,900</span>
                         </div>
-                        <button class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors">
+                        <NuxtLink to="/cart" class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer">
                             <span class="material-symbols-outlined">add</span>
-                        </button>
+                        </NuxtLink>
                     </div>
                 </div>
                 <!-- Product 3 -->
@@ -281,9 +253,9 @@
                             <span class="text-body-sm text-on-surface-variant">From</span>
                             <span class="text-headline-sm text-primary block">₦385,000</span>
                         </div>
-                        <button class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors">
+                        <NuxtLink to="/cart" class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer">
                             <span class="material-symbols-outlined">add</span>
-                        </button>
+                        </NuxtLink>
                     </div>
                 </div>
                 <!-- Product 4 -->
@@ -299,9 +271,9 @@
                             <span class="text-body-sm text-on-surface-variant">From</span>
                             <span class="text-headline-sm text-primary block">₦64,200</span>
                         </div>
-                        <button class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors">
+                        <NuxtLink to="/cart" class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer">
                             <span class="material-symbols-outlined">add</span>
-                        </button>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
