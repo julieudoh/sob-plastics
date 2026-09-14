@@ -6,7 +6,7 @@
         <div class="relative z-10 w-full max-w-max-width mx-auto px-margin-desktop">
         <div class="max-w-2xl">
             <h1
-                class="text-on-primary font-headline-lg text-headline-lg mb-6 leading-tight">
+                class=" text-on-primary font-headline-lg text-headline-lg mb-6 leading-tight">
                 Nigeria's Leading Wholesale Industrial Plastics &amp; Catering Supplier
             </h1>
             <p 
@@ -26,7 +26,7 @@
 <!-- Trust Bar -->
    <section class="bg-surface-container-lowest border-b border-border-gray py-8">
         <div class="max-w-max-width mx-auto px-margin-desktop">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-gutter">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-gutter">
                 <div class="flex items-center gap-4 group">
                     <div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary">
                         <span class="material-symbols-outlined">local_shipping</span>
@@ -189,7 +189,7 @@
     <!-- Featured Products -->
     <section class="py-20 bg-surface-container-low">
         <div class="max-w-max-width mx-auto px-margin-desktop">
-            <div class="flex justify-between items-end mb-12">
+            <div class="md:flex justify-between items-end mb-12">
                 <div>
                     <h2 class="text-headline-md font-headline-md text-primary">
                         Featured Trade Products
@@ -198,9 +198,12 @@
                         Bestselling distribution solutions for immediate dispatch across Nigeria.
                     </p>
                 </div>
-                <NuxtLink class="text-secondary font-label-lg border-b border-secondary pb-1 hidden md:block" to="/products">
-                    View All Trade Products
-                </NuxtLink>
+                <div class="mt-3 md:mt-0">
+                    <NuxtLink class="text-secondary font-label-lg border-b border-secondary" to="/products">
+                        View All Trade Products
+                    </NuxtLink>
+                </div>
+                
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
                 <!-- Product 1 -->

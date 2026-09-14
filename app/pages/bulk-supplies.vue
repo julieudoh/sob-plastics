@@ -347,7 +347,7 @@
 <label class="block font-label-lg text-label-lg text-primary mb-1" for="contactName">
                 Name / Contact Person <span class="text-error">*</span>
 </label>
-<input class="w-full px-3 py-2.5 rounded bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="contactName" placeholder="e.g. Alhaja Kemi Adeleke / Chukwuma Obi" required="" type="text"/>
+<input class="w-full px-3 py-2.5 rounded bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="contactName" placeholder="e.g. Alhaja Kemi Adeleke / Chukwuma Obi" required type="text"/>
 </div>
 <!-- Field 2: Phone / WhatsApp -->
 <div>
@@ -358,7 +358,7 @@
 <span class="inline-flex items-center px-3 bg-surface-container text-on-surface-variant border border-r-0 border-border-gray rounded-l font-code-table text-code-table">
                   +234
                 </span>
-<input class="w-full px-3 py-2.5 rounded-r bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="contactPhone" placeholder="803 123 4567" required="" type="tel"/>
+<input class="w-full px-3 py-2.5 rounded-r bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="contactPhone" placeholder="803 123 4567" required type="tel"/>
 </div>
 </div>
 <!-- Field 3: Items Needed -->
@@ -366,14 +366,14 @@
 <label class="block font-label-lg text-label-lg text-primary mb-1" for="itemsNeeded">
                 What items do you need? <span class="text-error">*</span>
 </label>
-<input class="w-full px-3 py-2.5 rounded bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="itemsNeeded" placeholder="e.g. Polythene shrink wrap rolls, 220L drums, chafing dishes..." required="" type="text"/>
+<input class="w-full px-3 py-2.5 rounded bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="itemsNeeded" placeholder="e.g. Polythene shrink wrap rolls, 220L drums, chafing dishes..." required type="text"/>
 </div>
 <!-- Field 4: Estimated Quantity -->
 <div>
 <label class="block font-label-lg text-label-lg text-primary mb-1" for="estimatedQty">
                 Estimated Quantity Needed <span class="text-error">*</span>
 </label>
-<select class="w-full px-3 py-2.5 rounded bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="estimatedQty" required="">
+<select class="w-full px-3 py-2.5 rounded bg-surface-container-low border border-border-gray text-on-surface font-body-md text-body-md focus:outline-none focus:border-secondary transition-colors" id="estimatedQty" required>
 <option value="">Select quantity tier...</option>
 <option value="5-9">5 - 9 units (Small Business 7% off)</option>
 <option value="10-24">10 - 24 units (Merchant Bundle 12% off)</option>
