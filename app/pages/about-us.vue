@@ -11,14 +11,14 @@
 <span class="font-label-md text-label-md tracking-wide uppercase">Commercial Supply &amp; Retail Store • Ikeja, Lagos</span>
 </div>
 <h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
-            About PolyCraft Solutions
+            About SOB Plastics
           </h1>
 <p class="font-body-lg text-body-lg text-secondary font-medium">
             Your reliable neighborhood &amp; wholesale supplier for packaging, catering, and workplace supplies in Nigeria.
           </p>
 <div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
 <p>
-              Founded right here in Ikeja, Lagos, <strong>PolyCraft Solutions</strong> is an independent commercial supplier and wholesale retailer. We are not a distant mega-refinery or opaque broker: we operate a straightforward, trusted store stocked with genuine goods.
+              Founded right here in Ikeja, Lagos, <strong>SOB Plastics</strong> is an independent commercial supplier and wholesale retailer. We are not a distant mega-refinery or opaque broker: we operate a straightforward, trusted store stocked with genuine goods.
             </p>
 <p>
               We source certified, durable packaging rolls, commercial food-service gear, and safety protective wear directly from accredited manufacturers. This direct stocking allows Nigerian business owners, retail shopkeepers, caterers, logistics fleets, and individuals to purchase real quality at honest, transparent Naira prices—without being turned away by impossible factory minimum order quantities.
@@ -43,8 +43,8 @@
 <!-- Visual / Store Collage Representation -->
 <div class="lg:col-span-5 relative">
 <div class="relative w-full rounded-2xl overflow-hidden bg-surface-container shadow-md">
-<img class="w-full h-[420px] object-cover" data-alt="A clean, bright commercial supply warehouse shop shelf in Ikeja Lagos displaying multiple transparent rolls of industrial stretch film, neat heavy-duty bubble wrap rolls, and organized boxes ready for trade customer pickup. Natural morning light, modern clean minimalist storage aesthetic with PolyCraft deep navy and action blue tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6egmt93VwgQWAlfeF8qmkLnPCLA6geixwaoz-EKFQYUbG98TAA86DB_eQ3sBFjEMaOCytNWnIEZyIw8jMyQ7jH05UFR3vlRKrVUjTaYkza1SN0_4VCN_UIB4mSyWN_OH-OzcBNHLdyTXWcETSZ2cKhRIXlCHJ3Lu85Ls4RT-VQtL1E6t7jp699d1hg0H3L_YIfVEwhGs5rTfVEbGmDm4XY909XXphgDWat75yDqXCea81pUqD4_tnag"/>
-<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<img class="w-full h-105 object-cover" data-alt="A clean, bright commercial supply warehouse shop shelf in Ikeja Lagos displaying multiple transparent rolls of industrial stretch film, neat heavy-duty bubble wrap rolls, and organized boxes ready for trade customer pickup. Natural morning light, modern clean minimalist storage aesthetic with SOB Plastics deep navy and action blue tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6egmt93VwgQWAlfeF8qmkLnPCLA6geixwaoz-EKFQYUbG98TAA86DB_eQ3sBFjEMaOCytNWnIEZyIw8jMyQ7jH05UFR3vlRKrVUjTaYkza1SN0_4VCN_UIB4mSyWN_OH-OzcBNHLdyTXWcETSZ2cKhRIXlCHJ3Lu85Ls4RT-VQtL1E6t7jp699d1hg0H3L_YIfVEwhGs5rTfVEbGmDm4XY909XXphgDWat75yDqXCea81pUqD4_tnag"/>
+<div class="absolute inset-0 bg-linear-to-t from-primary/80 via-transparent to-transparent"></div>
 <div class="absolute bottom-6 left-6 right-6 text-on-primary">
 <div class="flex items-center gap-2 mb-1">
 <span class="material-symbols-outlined text-[18px] text-tertiary-fixed">verified</span>
@@ -56,7 +56,7 @@
 </div>
 </div>
 <!-- Small Floating Detail Card -->
-<div class="hidden sm:flex absolute -bottom-6 -left-6 bg-surface-container-lowest p-4 rounded-xl shadow-lg items-center gap-4 max-w-xs">
+<div class="hidden sm:flex absolute -bottom-7 -left-6 bg-surface-container-lowest p-4 rounded-xl shadow-lg items-center gap-4 max-w-xs">
 <div class="w-12 h-12 rounded-lg bg-secondary-fixed flex items-center justify-center text-primary shrink-0">
 <span class="material-symbols-outlined text-[24px]">local_shipping</span>
 </div>
@@ -169,7 +169,7 @@
 <!-- Value 1 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm space-y-4">
 <div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[26px]">tune</span>
+<span class="material-symbols-outlined text-headline-lg-mobile">tune</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-primary">No Bogus MOQs</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -179,7 +179,7 @@
 <!-- Value 2 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm space-y-4">
 <div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[26px]">payments</span>
+<span class="material-symbols-outlined text-headline-lg-mobile">payments</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-primary">Fair Nigerian Pricing</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -189,7 +189,7 @@
 <!-- Value 3 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm space-y-4">
 <div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[26px]">fact_check</span>
+<span class="material-symbols-outlined text-headline-lg-mobile">fact_check</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-primary">Inspected Quality</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -199,7 +199,7 @@
 <!-- Value 4 -->
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm space-y-4">
 <div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[26px]">warehouse</span>
+<span class="material-symbols-outlined text-headline-lg-mobile">warehouse</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-primary">Ready Lagos Stock</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -244,7 +244,7 @@
 <div>
 <h4 class="font-label-lg text-label-lg text-on-primary">Store Hours</h4>
 <p class="font-body-sm text-body-sm text-on-primary-container mt-1">
-                    Monday – Saturday<br/>8:00 AM – 6:00 PM (WAT)
+                    Monday – Saturday<br>8:00 AM – 6:00 PM (WAT)
                   </p>
 </div>
 </div>
@@ -255,7 +255,7 @@
 <div>
 <h4 class="font-label-lg text-label-lg text-on-primary">Telephone / WhatsApp</h4>
 <p class="font-body-sm text-body-sm text-on-primary-container mt-1">
-                    Direct Desk: <a class="text-secondary-fixed hover:underline" href="tel:+23418007659">+234 1 800 7659</a><br/>
+                    Direct Desk: <a class="text-secondary-fixed hover:underline" href="tel:+23418007659">+234 1 800 7659</a><br>
                     WhatsApp: <a class="text-secondary-fixed hover:underline" href="https://wa.me/2348030007659">+234 803 000 7659</a>
 </p>
 </div>
@@ -267,8 +267,8 @@
 <div>
 <h4 class="font-label-lg text-label-lg text-on-primary">Email Support</h4>
 <p class="font-body-sm text-body-sm text-on-primary-container mt-1">
-                    Orders: <a class="text-secondary-fixed hover:underline" href="mailto:orders@polycraft.ng">orders@polycraft.ng</a><br/>
-                    General: <a class="text-secondary-fixed hover:underline" href="mailto:contact@polycraft.ng">contact@polycraft.ng</a>
+                    Orders: <a class="text-secondary-fixed hover:underline" href="mailto:orders@sobplastics.ng">orders@sobplastics.ng</a><br>
+                    General: <a class="text-secondary-fixed hover:underline" href="mailto:contact@sobplastics.ng">contact@sobplastics.ng</a>
 </p>
 </div>
 </div>
@@ -287,12 +287,12 @@
 </div>
 <!-- Right side: Ikeja Map Snapshot -->
 <div class="lg:col-span-5 flex flex-col justify-between">
-<div class="w-full h-full min-h-[300px] rounded-xl overflow-hidden bg-primary-container relative">
-<div class="w-full h-full min-h-[300px] bg-cover bg-center" data-location="Plot 14 Commercial Central Way, Ikeja, Lagos, Nigeria" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDRqan0jdPZodGVUlQHXQz9Qgu1ItAxbsStR8kdDdaCGoXgZJ6w-PeuyE9EIEKHcFZYnOv0YknYlVC7muXoLvGpGbPF2N_Hvvq0JlHQYoBJmAuGeGggDmZfmnSj2nwhv-xmiOrtBYw_cKPGqIylaPtBBnUuh4lXy1yWnrIlwIVTL_s_R2drn8zFMI4R8ulRp2F9beKkclRHkcQYlI-Hv4bnPj6L85jZOZ615setLRju1zHAeXQsXpDgbg')"></div>
+<div class="w-full h-full min-h-75 rounded-xl overflow-hidden bg-primary-container relative">
+<div class="w-full h-full min-h-75 bg-cover bg-center" data-location="Plot 14 Commercial Central Way, Ikeja, Lagos, Nigeria" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDRqan0jdPZodGVUlQHXQz9Qgu1ItAxbsStR8kdDdaCGoXgZJ6w-PeuyE9EIEKHcFZYnOv0YknYlVC7muXoLvGpGbPF2N_Hvvq0JlHQYoBJmAuGeGggDmZfmnSj2nwhv-xmiOrtBYw_cKPGqIylaPtBBnUuh4lXy1yWnrIlwIVTL_s_R2drn8zFMI4R8ulRp2F9beKkclRHkcQYlI-Hv4bnPj6L85jZOZ615setLRju1zHAeXQsXpDgbg')"></div>
 <div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-3 py-1.5 rounded-lg text-on-surface shadow">
 <span class="font-label-md text-label-md flex items-center gap-1.5 font-semibold text-primary">
 <span class="material-symbols-outlined text-secondary text-[16px]">pin_drop</span>
-                  PolyCraft Store • Ikeja Hub
+                  SOB Plastics Store • Ikeja Hub
                 </span>
 </div>
 </div>

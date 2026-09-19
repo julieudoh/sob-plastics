@@ -14,8 +14,8 @@
   }
 </script>
 <template>
-  <header class="bg-surface-container-lowest dark:bg-surface-container-lowest border-b border-border-gray dark:border-outline-variant sticky top-0 z-50">
-    <nav class="flex justify-between items-center w-full lg:px-margin-desktop py-3 max-w-max-width mx-auto">
+  <header class="bg-surface-container-lowest dark:bg-surface-container-lowest border-b border-border-gray dark:border-outline-variant sticky top-0 z-50 max-w-screen">
+    <nav class="flex justify-between items-center w-full px-margin-mobile lg:px-margin-desktop py-3 max-w-max-width mx-auto">
         <div class="flex justify-between items-center w-full px-margin-desktop py-3 max-w-max-width mx-auto">
           <NuxtLink
               class="text-headline-sm font-display font-bold text-primary dark:text-primary-fixed"
@@ -26,7 +26,7 @@
           <ul class="hidden lg:flex items-center gap-6">
             <li v-for="link in navLinks" :key="link.path">
                 <NuxtLink 
-                :to="link.path"
+                :to="{path:link.path, query: {select: 'plastics'} }"
                 class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 text-label-lg font-display"
                 > {{ link.name }} </NuxtLink>
             </li>

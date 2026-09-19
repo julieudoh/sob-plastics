@@ -1,8 +1,3 @@
-<script setup>
-definePageMeta({
-    layout: 'catalog' // Tells Nuxt to use layouts/catalog.vue instead of default.vue
-})
-</script>
 <template>
 <main class="flex-grow w-full max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop py-8 md:py-12">
 <div class="mb-8">

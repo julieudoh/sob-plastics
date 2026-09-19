@@ -1,8 +1,8 @@
 <template>
     <div class="min-h-screen flex items-center justify-center">
         <main class="w-full min-h-screen flex flex-col md:flex-row bg-surface-container-lowest px-margin-mobile md:px-margin-desktop py-12 overflow-hidden shadow-2xl">
-        <!-- Left Side: Industrial Imagery & Branding -->
-            <section class="hidden lg:flex w-1/2 relative overflow-hidden bg-primary items-center justify-center p-12">
+            <!-- Left Side: Industrial Imagery & Branding -->
+            <section class="flex w-full md:w-1/2 relative overflow-hidden bg-primary items-center justify-center p-12">
             <!-- Background Image with data-alt -->
                 <div class="absolute inset-0 z-0 bg-primary-container">
                     <NuxtImg class="w-full h-full object-cover opacity-30 mix-blend-overlay" alt="A vast, high-tech industrial warehouse featuring rows of organized logistics shelving and automated manufacturing equipment" src="/images/login-factory-view.jfif" />
@@ -16,7 +16,7 @@
                     </div>
                     <h2 class="text-headline-lg font-headline-lg mb-6">Nigeria's Leading Wholesale Partner</h2>
                     <p class="text-body-lg font-body-lg text-on-primary-container mb-12 opacity-90 leading-relaxed">Access our secure trade portal for exclusive wholesale pricing and streamlined procurement. Reliable distribution across Lagos, Ogunstate, and nationwide for industrial plastics and catering supplies.</p>
-                    <div class="grid grid-cols-2 gap-8 pt-8 border-t border-on-primary-fixed-variant/30">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8 border-t border-on-primary-fixed-variant/30">
                         <div class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-secondary-container">verified</span>
                             <div>
@@ -36,13 +36,9 @@
             </section>
             <!-- Right Side: Login Form -->
             <section class="w-full lg:w-1/2 flex flex-col justify-center items-center px-6 md:px-margin-desktop bg-surface-container-lowest relative">
-                <!-- Mobile Logo -->
-                <div class="lg:hidden absolute top-8 left-8">
-                    <span class="text-headline-sm font-headline-sm font-bold text-primary">SOB Plastics</span>
-                </div>
                 <div class="w-full max-w-md" style="opacity: 1; transform: translateY(0px); transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);">
                     <!-- Heading Group -->
-                    <header class="mb-10 text-left">
+                    <header class="mt-10 text-left">
                         <h1 class="text-headline-md font-headline-md text-primary mb-2">Welcome Back</h1>
                         <p class="text-body-md font-body-md text-on-surface-variant">Access your procurement portal and trade pricing.</p>
                     </header>

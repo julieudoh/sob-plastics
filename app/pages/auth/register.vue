@@ -1,6 +1,6 @@
 <template>
     <div>
-        <main class="min-h-screen flex-grow flex items-center justify-center py-12 px-margin-mobile md:px-margin-desktop">
+        <main class="min-h-screen grow flex items-center justify-center py-12 px-margin-mobile md:px-margin-desktop">
             <div class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-5 glass-panel rounded-xl overflow-hidden shadow-sm">
                 <!-- Left Branding/Visual Section -->
                 <div class="md:col-span-2 relative bg-primary-container p-12 flex flex-col justify-between overflow-hidden min-h-100">

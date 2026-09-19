@@ -1,24 +1,24 @@
 <template>
     <main class="w-full bg-background"><div class="flex flex-col w-full">
-<!-- Subtle Top Notification Bar -->
-<div class="bg-primary text-on-primary py-2 px-margin-desktop">
-<div class="max-w-max-width mx-auto flex items-center justify-between font-label-md text-label-md">
-<div class="flex items-center gap-2">
-<span class="inline-block w-2 h-2 rounded-full bg-success animate-pulse"></span>
-<span>Ikeja Wholesale Depot &amp; Showroom: Open Mon - Sat (8:00 AM - 5:30 PM)</span>
-</div>
-<div class="hidden sm:flex items-center gap-4">
-<span class="text-on-primary-container">Wholesale Desk direct:</span>
-<a class="text-tertiary-fixed font-code-table hover:underline" href="tel:+2348007659272">+234 (0) 800 765 9272</a>
-</div>
-</div>
-</div>
-<!-- Hero Header Section -->
-<section class="w-full bg-surface-container-lowest border-b border-border-gray py-12 lg:py-16">
-<div class="max-w-max-width mx-auto px-margin-mobile sm:px-margin-desktop">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-<div class="lg:col-span-7 flex flex-col items-start">
-<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-secondary/10 text-secondary font-label-md text-label-md uppercase tracking-wider mb-4">
+      <!-- Subtle Top Notification Bar -->
+      <div class="bg-primary text-on-primary py-2 px-margin-desktop fixed top-22 z-10 w-full">
+        <div class="max-w-max-width mx-auto flex items-center justify-between font-label-md text-label-md">
+          <div class="flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-success animate-pulse"></span>
+            <span>Ikeja Wholesale Depot &amp; Showroom: Open Mon - Sat (8:00 AM - 5:30 PM)</span>
+          </div>
+          <div class="hidden sm:flex items-center gap-4">
+            <span class="text-on-primary-container">Wholesale Desk direct:</span>
+            <a class="text-tertiary-fixed font-code-table hover:underline" href="tel:+2348007659272">+234 (0) 800 765 9272</a>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Header Section -->
+      <section class="w-full bg-surface-container-lowest border-b border-border-gray py-12 lg:py-16">
+        <div class="max-w-max-width mx-auto px-margin-mobile sm:px-margin-desktop">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-7 flex flex-col items-start">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-secondary/10 text-secondary font-label-md text-label-md uppercase tracking-wider mb-4">
 <span class="material-symbols-outlined text-[16px]">local_shipping</span>
             B2B &amp; Commercial Wholesale Store
           </div>
@@ -261,7 +261,7 @@
               </li>
 <li class="flex items-center gap-2">
 <span class="material-symbols-outlined text-success text-[18px]">check</span>
-                Dedicated PolyCraft store account representative
+                Dedicated SOB Plastics store account representative
               </li>
 <li class="flex items-center gap-2">
 <span class="material-symbols-outlined text-success text-[18px]">check</span>
@@ -404,7 +404,7 @@
 <p class="font-body-sm text-body-sm text-on-surface-variant mb-4 leading-relaxed">
               Prefer chatting directly? Send your item list, photos of what you are restocking, or custom specifications right away to our direct commercial store agent.
             </p>
-<a class="w-full py-3 px-4 rounded bg-success text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 hover:opacity-95 transition-opacity shadow-sm" href="https://wa.me/2348007659272?text=Hello%20PolyCraft,%20I%20would%20like%20to%20inquire%20about%20bulk%20supplies" rel="noopener noreferrer" target="_blank">
+<a class="w-full py-3 px-4 rounded bg-success text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 hover:opacity-95 transition-opacity shadow-sm" href="https://wa.me/2348007659272?text=Hello%20SOBPlastics,%20I%20would%20like%20to%20inquire%20about%20bulk%20supplies" rel="noopener noreferrer" target="_blank">
 <span class="material-symbols-outlined text-[20px]">forum</span>
               Chat on WhatsApp (+234 800 765 9272)
             </a>
@@ -414,7 +414,7 @@
 <div class="flex items-start gap-3">
 <span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">warehouse</span>
 <div>
-<h4 class="font-label-lg text-label-lg text-primary">PolyCraft Store &amp; Depot Pickup Point</h4>
+<h4 class="font-label-lg text-label-lg text-primary">SOB Plastics Store &amp; Depot Pickup Point</h4>
 <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
                   Wempco Road Industrial Complex, Off Lateef Jakande Rd, Agidingbi, Ikeja, Lagos.
                 </p>
@@ -493,11 +493,12 @@
 <h4 class="font-headline-sm text-headline-sm leading-snug">Need a formal proforma invoice today?</h4>
 <p class="font-body-sm text-body-sm text-on-primary-container">We issue registered Nigerian TIN &amp; VAT invoices within 15 minutes.</p>
 </div>
-<a class="shrink-0 px-5 py-2.5 rounded bg-secondary text-on-secondary font-label-lg text-label-lg hover:bg-surface-container-lowest hover:text-primary transition-colors" href="mailto:procurement@polycraft.ng?subject=Wholesale%20Proforma%20Invoice%20Request">
+<a class="shrink-0 px-5 py-2.5 rounded bg-secondary text-on-secondary font-label-lg text-label-lg hover:bg-surface-container-lowest hover:text-primary transition-colors" href="mailto:procurement@sobplastics.ng?subject=Wholesale%20Proforma%20Invoice%20Request">
           Email Quote Desk
         </a>
 </div>
 </div>
 </section>
-</div></main>
+</div>
+  </main>
 </template>
